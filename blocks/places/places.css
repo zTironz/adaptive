@@ -1,0 +1,268 @@
+@import url("../places/__place/places__place.css");
+@import url("../places/__title/places__title.css");
+@import url("../places/__website/places__website.css");
+@import url("../places/__url-heading/places__url-heading.css");
+@import url("../places/__link/places__link.css");
+@import url("../places/__kosa/places__kosa.css");
+@import url("../places/__paragraph/places__paragraph.css");
+@import url("../places/__paragraph-text/places__paragraph-text.css");
+
+
+.places {
+    max-width: 984px;
+    background: #2a2c2f;
+    margin: 0 auto;
+    margin-top: 92px;
+}
+
+/*
+.place {
+    margin: 0;
+    width: 100%;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.place__title {
+    width: 457px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.place__website {
+    width: 50%;
+    padding: 0px;
+}
+
+.place__url-heading {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    padding: 0px;
+    margin: 0px;
+}
+
+.place__link {
+    font-family: Inter, Arial, Helvetica, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+
+.place__kosa {
+    max-width: 46%;
+    margin-top: 60px;
+}
+
+.place__paragraph {
+    align-self: stretch;
+    width: 50%;
+    margin-top: 60px;
+    padding: 0px;
+}
+
+.place__paragraph-text {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;    
+    margin: 0px;
+}
+
+.place__paragraph-text:first-child {
+    margin-bottom: 36px;
+}
+
+*/
+
+.place__paragraph-text:first-child {
+    margin-bottom: 36px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        max-width: 90%;
+        margin-top: 102px;
+        
+    }
+
+    .place__kosa {
+        align-self: flex-start;
+        margin-top: 40px;
+    }
+
+    .place__paragraph-text:first-child {
+        margin-bottom: 24px;
+    }
+
+    .place__paragraph {
+        margin-top: 40px;
+    }
+
+
+
+    
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        max-width: 95%;
+        margin-top: 102px;
+        
+    }
+
+    .place__title {
+        width: 45%;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place__website {
+        width: 50%;
+    }
+
+    .place__paragraph-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .place__kosa {
+        max-width: 46%;
+        align-self: flex-start;
+        margin-top: 40px;
+        min-width: 340px;
+    }
+    
+    .place__paragraph-text:first-child {
+        margin-bottom: 24px;
+    }
+
+    .place__paragraph {
+        margin-top: 40px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    
+    .places {
+        max-width: 100%;
+        margin-top: 64px;
+    }
+
+    .place {
+        width: 100%;
+    }
+
+    .place__title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto;
+    }
+    .place__website {
+        display: none;
+    }
+
+    .place__kosa {
+        max-width: 100%;
+        margin-top: 32px;
+    }
+
+    .place__paragraph {
+        width: 90%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
+    .place__paragraph-text {
+        font-size: 16px;
+        line-height: 27px;
+        margin: 0px;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .place__paragraph-text:first-child {
+        margin-bottom: 0px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) { 
+
+    .places {
+        max-width: 100%;
+        margin-top: 64px;
+    }
+
+    .place {
+        width: 100%;
+    }
+
+    .place__title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto;
+    }
+    .place__website {
+        display: none;
+    }
+
+    .place__kosa {
+        max-width: 100%;
+        margin-top: 32px;
+    }
+
+    .place__paragraph {
+        width: 90%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
+    .place__paragraph-text {
+        font-size: 16px;
+        line-height: 169.43%;
+        margin: 0px;
+        width: 100%;
+        margin-top: 24px;
+        
+    }
+
+    .place__paragraph-text:first-child {
+        margin-bottom: 0px;
+    }
+
+
+
+
+}

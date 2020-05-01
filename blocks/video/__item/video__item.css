@@ -1,0 +1,23 @@
+@import url('../__item-bg/video__item-bg.css');
+@import url('../__icon/video__icon.css');
+@import url('../__duration/video__duration.css');
+@import url('../__title/video__title.css');
+@import url('../__subtitle/video__subtitle.css');
+
+
+.video__item {
+    position: relative;
+    max-width: 1184px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+
+
+.video__item:hover {
+    background-color: rgba(1, 1, 1, 0.8);
+}
+
+

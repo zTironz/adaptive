@@ -1,0 +1,158 @@
+@import url('../comments/__container/comments__container.css');
+
+.comments {
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-top: 102px;
+    background: #2a2c2f;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    .comments__container {
+         width: 90%;
+    }
+
+    .comments__comment {
+        width: 30%;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .comments__container {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+
+    .comments__comment {
+        width: 382px;
+        margin: 0 auto;
+        padding-top: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .comments__image {
+        order: 10;
+    }
+
+    .comments__quote {
+        font-size: 16px;
+        line-height: 23px;
+        order: 12;
+    }
+
+    .comments__author {
+        order: 10;
+    }
+
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .comments {
+        margin-top: 64px;
+    }
+
+
+
+    .comments__container {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+
+    .comments__comment {
+        width: 343px;
+        margin: 0 auto;
+        padding-top: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .comments__image {
+        order: 10;
+    }
+
+    .comments__quote {
+        font-size: 16px;
+        line-height: 23px;
+        order: 12;
+        margin-top: 24px;
+    }
+
+    .comments__author {
+        order: 10;
+        margin-top: 16px;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) { 
+    .comments {
+        margin-top: 64px;
+        width: 90%;
+    }
+
+    .comments__container {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+
+    .comments__comment {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .comments__image {
+        order: 10;
+    }
+
+    .comments__quote {
+        font-size: 16px;
+        line-height: 23px;
+        order: 12;
+        margin-top: 24px;
+    }
+
+    .comments__author {
+        order: 10;
+        margin-top: 16px;
+    }
+
+}

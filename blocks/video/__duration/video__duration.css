@@ -1,0 +1,14 @@
+.video__duration {
+    position: absolute;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    top: 165px;
+    left: 30px;
+    padding: 0px;
+    margin: 0px;
+}

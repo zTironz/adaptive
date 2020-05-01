@@ -1,0 +1,146 @@
+@import url("../intro/__title/intro__title.css");
+@import url("../intro/__text/intro__text.css");
+@import url("../intro/__list/intro__list.css");
+@import url("../intro/__row/intro__row.css");
+@import url("../intro/__row-normal/intro__row-normal.css");
+
+
+
+
+.intro {
+    max-width: 984px; 
+    background: #2a2c2f;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+
+
+/*
+
+.intro__title {
+    width: 683px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.intro__text {
+    width: 683px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0px;  
+    margin-top: 35px;
+}
+
+.intro__list {
+    width: 383px;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 35px;
+}
+
+.intro__row {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+*/
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .intro {
+        width: 90%;
+    }
+
+    .intro__text {
+        width: 692px;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .intro {
+        width: 95%;
+    }
+
+
+
+    .intro__text {
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .intro {
+        width: 95%;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 60%;
+    }
+
+
+
+    .intro__text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .intro__list {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .intro {
+        width: 95%;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 82%;
+    }
+
+    .intro__text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 169.43%;
+    }
+
+    .intro__list {
+        width: 100%;
+    }
+
+        
+    .intro__row {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+}

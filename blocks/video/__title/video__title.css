@@ -1,0 +1,14 @@
+.video__title {
+    position: absolute;
+    width: 322px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FFFFFF;
+    top: 189px;
+    left: 30px;
+    padding: 0px;
+    margin: 0px;
+}

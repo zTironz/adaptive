@@ -1,0 +1,249 @@
+@import url('../video/__container/video__container.css');
+
+
+
+.video {
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-top: 102px;
+    background: #2a2c2f;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .video {
+        width: 90%;
+    }
+
+    .video__title {
+        top: 60%;
+
+    }
+
+    .video__duration {
+        top: 50%;
+
+    }
+    
+    .video__subtitle {
+        bottom: 5%;
+    }
+
+    .video__item-bg {
+        min-height: 288px;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video__title {
+        top: 50%;
+        left: 30px;
+        font-size: 2em;
+        line-height: 1.2;
+    }
+
+    .video__item-bg {
+        width: 100%;
+    }
+
+
+    .video__link {
+        width: calc((200% - 8px) /2);
+        margin: 0 auto;
+        padding: inherit;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+
+
+    .video__item {
+        width: inherit;
+    }
+
+    .video__duration {
+        top: 38%;
+        left: 30px;
+        padding: 0px;
+        margin: 0px;
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    .video__subtitle {
+        bottom: 10%;
+    }
+
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+
+    .video {
+        max-width: 95%;
+        font-size: 16px;
+        margin-top: 64px;
+    }
+
+    .content-title {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .content-subtitle {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .video__container {
+        max-width: 1184px;
+        margin: 0 auto;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .video__link {
+
+        margin-top: 20px;
+    }
+
+    .video__item-bg {
+        width: 100%;
+    }
+
+    .video__duration {
+        top: 35%;
+    }
+    .video__title {
+        font-size: 1.5em;
+        line-height: 1.625;
+        top: 45%;
+    }
+
+    .video__subtitle {
+        bottom: 10%;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) { 
+
+
+    .video {
+        max-width: 95%;
+        font-size: 16px;
+        margin-top: 64px;
+    }
+
+    .content-title {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .content-subtitle {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .video__container {
+        max-width: 1184px;
+        margin: 0 auto;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .video__link {
+
+        margin-top: 20px;
+    }
+
+    .video__item-bg {
+        width: 100%;
+    }
+
+    .video__duration {
+        top: 35%;
+    }
+
+    .video__title {
+        font-size: 1.5em;
+        line-height: 1.1;
+        top: 50%;
+        width: 85%;
+    }
+
+
+    .video__subtitle {
+        bottom: 10%;
+    }
+
+
+
+    .video__icon_type-play {
+        top: 10%;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video__container {
+        max-width: 95%;
+    }
+
+    .video__link:first-child {
+        margin-right: 16px;
+    }
+
+    .video__link {
+        width: 100%;
+    }
+
+
+}
